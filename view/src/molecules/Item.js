@@ -1,8 +1,8 @@
 import React from "react";
 
-import CheckBox from "./CheckBox";
-import DeleteBtn from "./DeleteBtn";
-import EditBtn from "./EditBtn";
+import CheckBox from "../atoms/CheckBox";
+import DeleteBtn from "../atoms/DeleteBtn";
+import EditBtn from "../atoms/EditBtn";
 
 const Item = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Item from "./Item";
+import Item from "../molecules/Item";
 
 const Items = () => {
   return (
