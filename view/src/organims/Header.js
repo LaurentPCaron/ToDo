@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = ({ path, cy }) => {
   return (
-    <div>
+    <div align='center'>
       <Link
         to={path}
         className='display-1'

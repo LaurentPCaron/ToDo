@@ -69,8 +69,7 @@ describe('App', () => {
 
     it('should fill the form', () => {
       cy.get('[data-test="cyTxtBoxDescription"]').type('test');
-      cy.get('[data-test="cyCheckDeadline"]').click();
-      cy.get('[data-test="cyTxtBoxDeadline"]').type('27-11-1990');
+      cy.get('[data-test="cyTxtBoxDeadline"]').type('1990-11-27');
     });
 
     it('should add the new task to the list', () => {

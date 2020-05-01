@@ -1,15 +1,15 @@
 import React from 'react';
 
-import AddBtn from '../atoms/AddBtn';
+import AddButton from '../organims/AddButton';
 import Items from '../organims/Items';
 
-const App = () => {
+const Home = () => {
   return (
-    <div className='w-75 p-3 center'>
-      <AddBtn path='/add' cy='cyBtnAdd' />
+    <div style={{ margin: 'auto' }} className='w-75 p-3'>
+      <AddButton />
       <Items />
     </div>
   );
 };
 
-export default App;
+export default Home;
